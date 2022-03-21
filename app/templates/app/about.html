@@ -1,0 +1,86 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<title>About V and G Luna Construction</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/content/about.css' %}" />
+
+<section class="banner d-flex align-items-center justify-content-center" id="aboutbanner">
+    <div class="container">
+        <h1 class="text-center"><strong>About V&amp;G Luna Construction</strong></h1>
+    </div>
+</section>
+
+<section class="about-description">
+    <div class="container">
+        <p class="about-p">
+            V &amp; G Luna Construction, was registered as an LLC by Jorge Luna in 2003. Named after his daughters Valeria and Gina, Jorge had the vision of creating a construction company that can complete projects of all sizes for both residential and commercial clients. Since the start V & G Luna Construction the company has reached the Austin, Dallas-Fort Worth Metroplex, and San Antonio Markets.
+        </p>
+        <p class="about-p">
+            At V &amp; G Luna Construction we have the experience to build a brand-new home from scratch or build an entire neighborhood. Additionally, our company works on installing, modifying, and repairing utilities infrastructure for various commercial clients. We are proud to serve the needs all the needs of all our clients, and have always kept a record of providing high quality work. 
+        </p>
+        <p class="about-p">
+            Check out <a href="{% url 'commercial' %}">commercial projects</a> and <a href="{% url 'residential' %}">residential projects</a> pages to learn more about our work
+        </p>
+    </div>
+</section>
+
+<div class="container">
+    <div class="jumbotron">
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/688687075?h=f25f364399&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="IMG_5594.MOV"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+</div>
+
+<section class="difference">
+    <div class="row">
+        <div class="container">
+            <div class="col-md-4">
+                <h3>Sustainability</h3>
+                <p class="about-difference">
+                    To complete our projects at V&G Luna Construction we use sustainable construction practices to ensure that we are protecting the communities and environment we work in. We use modern fuel-efficient machinery to reduce our carbon footprint. When building we ensure that what we build will not harm the environment to ensure that we not affect the animal populations or destroy any vegetation.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Customer Focused</h3>
+                <p class="about-difference">
+                    To ensure that our customers are satisfied with our construction services we strive to provide our customers with the highest quality service. Our team is focused on completing projects on-time and within budget so that our clients can get the most benefits of what we built for them. We establish lifelong relationships with our clients to continue providing them with construction services for years to come.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Versatility</h3>
+                <p class="about-difference">
+                    V &amp; G Luna Construction can provide a myriad of construction services to both residential and commercial clients in Texas. Our knowledge and experience allow us to build what that our clients need, where and how they need it. We are an established and reputable construction company that has helped with the massive growth that Texas has been facing for the past 20 years.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--section class="partners">
+    <div class="container">
+        <h2>Our Partners</h2>
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+
+            </div>
+        </div>
+    </div>
+</section>-->
+
+
+
+
+
+
+
+
+
+{% endblock %}

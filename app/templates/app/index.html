@@ -1,0 +1,119 @@
+{% extends "app/layout.html" %}
+
+<title>V&amp;G Luna Construction Home Page</title>
+
+{% block content %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'app/content/home.css' %}" />
+
+   <section class="banner">
+    <div class="jumbotron" id="home-jumbotron">
+    </div>
+        <div class="container">
+            <div class="rectangle">  
+                <div class="row">
+                    <div class="col-md-4 home-col d-flex align-items-center justify-content-center" id="col-1">
+                        <div class="container">
+                            <p class="p-text">We provide commercial &amp; residential construction services to all Texas markets</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 home-col d-flex align-items-center justify-content-center text-center" id="col-2">
+                        <div class="container"> 
+                            <span id="number">400 </span><span id="cross">+</span><br />
+                            <p class="p-desc">Homes Built</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 home-col d-flex align-items-center justify-content-center text-center" id="col-3">
+                        <div class="container">
+                            <span id="number">100 </span><span id="cross">+</span><br />
+                            <p class="p-desc">Sites Developed</p>
+                        </div>
+                    </div>
+                 </div>       
+            </div>
+        </div> 
+   </section>
+
+<div class="container body-content">
+    <section class="about-home">
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <h2 class="text-center"><strong>Customer Focused</strong></h2>
+                <p class="p-home">
+                    We sit down with our clients to understand their needs so that we can create the best solution for them.
+                    During the project completion phase, we update our clients on the project status and keep the informed of any changes.
+                    After our projects is complete, we stay in touch with our clients to continue serving them on their future projects.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="../../static/app/images/machine.jpg" class="col-img" alt="machine"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../../static/app/images/quality.jpg" class="col-img" alt="quality"/>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <h2 class="text-center"><strong>Quality Mindset</strong></h2>
+                <p class="p-home">
+                    Our work is done following strict standards set by V & G Luna Construction and all the building codes 
+                    set by the government to ensure that our work will be safe for years to come. Before completing each 
+                    project, we perform quality assurance tasks to ensure that you are getting the service that you deserve 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <h2 class="text-center"><strong>Reliable Partner</strong></h2>
+                <p class="p-home">
+                    We strive to be the best construction company in Texas, which is why we complete each project on time and 
+                    within budget. On the job site our crew is professional, which is why all our projects are done right on the 
+                    first time. We are hardworking and don&acute;t stop until we complete what is promised to our clients.
+
+                </p>
+            </div>
+            <div class="col-md-6">
+                    <img src="../../static/app/images/partner.jpg" class="col-img" alt="partner"/>
+            </div>
+        </div>
+
+        <div class="jumbotron" id="homeservices">
+            <div class="transbox d-flex align-items-center justify-content-center">
+                <h2 class="jumbo-head">Our Services</h2>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="../../static/app/images/homesite.jpg" class="card-img-top" alt="site development">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Site Development</h4>
+                        </div>
+                </div>            
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="../../static/app/images/retpond.jpg" class="card-img-top" alt="home builder">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Retention Ponds</h4>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="../../static/app/images/homebuild.jpg" class="card-img-top" alt="home builder">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Home Building</h4>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects-slide">
+
+    </section>
+</div>
+
+{% endblock %}

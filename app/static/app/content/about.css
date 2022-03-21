@@ -1,0 +1,24 @@
+/*About Page Settings*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#aboutbanner{
+    background-size: 100% 100%;
+    background-image: url("../../../static/app/images/about.jpg");
+    height: 326px;
+    color: ivory;
+    margin-bottom: 15px;
+}
+
+.about-p{
+    font-size: 2rem;
+}
+
+.jumbotron{
+    background-color: white;
+}
+
+.about-difference{
+    font-size: 1.75rem;
+}

@@ -1,0 +1,126 @@
+/*Home Page Settings*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home-jumbotron {
+    background-size: 100% 100%;
+    background-image: url("../../../static/app/images/homeban.jpg");
+    height: 600px;
+    margin-bottom: 0px;
+}
+
+.rectangle {
+    margin-top: -125px;
+    background-color: #011638;
+    color: white;
+    height: 150px;
+}
+
+.home-col{
+    height: 150px;
+    font-size: 2rem;
+    flex-direction: column;
+}
+
+.p-text {
+    font-size: 23px;
+    line-height: 25px;
+    color: #FFFFFF;
+    color: rgb(255, 255, 255);
+}
+
+#number {
+    font-size: 35px;
+    line-height: 20px;
+    color: #FFFFFF;
+    color: rgb(255, 255, 255);
+}
+
+#cross {
+    font-size: 35px;
+    line-height: 20px;
+    color: #931621;
+    color: rgb(147, 22, 33);
+}
+
+.p-desc {
+    font-size: 30px;
+    line-height: 25px;
+    color: #FFFFFF;
+    color: rgb(255, 255, 255);
+    padding-top: 5px
+}
+
+#col-1 {
+    border-right: solid;
+    border-color: #4BA3C3;
+    border-color: rgba(75, 163, 195, 1);
+    border-width: 3px;
+}
+
+#col-2 {
+    border-right: solid;
+    border-color: #4BA3C3;
+    border-color: rgba(75, 163, 195, 1);
+    border-width: 3px;
+}
+
+.about-home{
+    margin-top: 15px;
+}
+
+.about-home .col-md-6{
+    flex-direction: column;
+    height: auto;
+}
+
+.p-home{
+    font-size: 2rem;
+}
+
+.col-img{
+    width: 100%;
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+#homeservices {
+    background-image: url("../../../static/app/images/ditch.jpg");
+    background-size: 100% 100%;
+    height: 400px;
+    margin-top: 15px;
+    color: ivory;
+    padding: 0px;
+}
+
+.transbox{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(90, 102, 80, 0.5);
+    border-radius: 6px;
+}
+
+.jumbo-head {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+@media (max-width: 767px) {
+    #home-jumbotron{
+        height: 250px;
+    }
+    .rectangle{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .p-text {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: start;
+    }
+}
